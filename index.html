@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindbad Offers</title>
+    <!-- icon -->
+    <link rel="icon" href="imgs/icon.png">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <a href="#" style="position: fixed;top: 500%;left: 500%;">
+        <img src="imgs/logo.jpg" alt="">
+    </a>
+
+    <div class="wheel-container">
+        <div class="nail">
+
+        </div>
+        <div class="wheel">
+            <div class="offers">
+
+                <div class="offer-1 offer">
+                    <div class="child" style="transform: translate(-50% , -50%) rotate(3deg);">
+                        <img src="imgs/example.png" alt="">
+                        <p>50%<span>OFF</span> </p>
+                    </div>
+                </div>
+                <div class="offer-2 offer">
+                    <div class="child" style="transform: translate(-50% , -50%) rotate(50deg);">
+                        <img src="imgs/example.png" alt="">
+                        <p>50%<span>OFF</span></p>
+                    </div>
+                </div>
+                <div class="offer-3 offer">
+                    <div class="child" style="transform: translate(-50% , -50%) rotate(108deg);">
+                        <img src="imgs/example.png" alt="">
+                        <p>50%<span>OFF</span></p>
+                    </div>
+                </div>
+                <div class="offer-4 offer">
+                    <div class="child" style="transform: translate(-50% , -50%) rotate(176deg);">
+                        <img src="imgs/example.png" alt="">
+                        <p>50%<span>OFF</span> </p>
+                    </div>
+                </div>
+                <div class="offer-5 offer">
+                    <div class="child" style="transform: translate(-50% , -50%) rotate(-124deg);">
+                        <img src="imgs/example.png" alt="">
+                        <p>50%<span>OFF</span></p>
+                    </div>
+                </div>
+                <div class="offer-6 offer">
+                    <div class="child" style="transform: translate(-50% , -50%) rotate(-65deg);">
+                        <img src="imgs/example.png" alt="">
+                        <p>50%<span>OFF</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="spin-btn">
+            <span class="spin-action">ادر العجلة</span>
+            <span class="spin-reward">واحصل على جائزتك</span>
+        </button>
+    </div>
+
+
+    <p class="welcome">عروض السندباد مبتخلصشششششششش</p>
+
+    <div class="form-container">
+        
+        <div class="form-father">
+            <div class="details-box">
+                <img src="imgs/logo.jpg" alt="">
+                <p>السندباد - حيث تلتقي الأناقة بالوظيفة</p>
+                <p>نحو مساحات تلهمك. نصنع الأناقة ببساطة، ونحول التفاصيل إلى تجربة فريدة تعكس ذوقك وتعيش معك كل يوم.</p>
+
+                <div class="links">
+                    <a href="https://www.instagram.com/sindbad.oppein/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.threads.net/@sindbad.oppein" target="_blank">
+                        <i class="fa-brands fa-threads"></i>
+                    </a>
+                </div>
+            </div>
+            <form method="post" id="data-form">
+                <h1>تسجيل البيانات</h1>
+                <div class="quiz-1 quiz">
+                    <input type="text" name="full_name" id="name_inp" placeholder="ادخل اسمك كاملًا" style="transition-delay:.3s;">
+                    <input type="text" name="phone_number" id="phone_inp" placeholder="ادخل رقم تليفونك"
+                        style="transition-delay:.2s;">
+            
+                    <div class="select-container" style="transition-delay:.1s;">
+                        <select id="state" name="state">
+                            <option value="0" hidden>اختر الولاية</option>
+                            <option value="مسقط">مسقط</option>
+                            <option value="شمال الباطنة">شمال الباطنة</option>
+                            <option value="جنوب الباطنة">جنوب الباطنة</option>
+                            <option value="الداخلية">الداخلية</option>
+                            <option value="الظاهرة">الظاهرة</option>
+                            <option value="البريمي">البريمي</option>
+                            <option value="جنوب الشرقية">جنوب الشرقية</option>
+                            <option value="شمال الشرقية">شمال الشرقية</option>
+                            <option value="الوسطى">الوسطى</option>
+                            <option value="ظفار">ظفار</option>
+                        </select>
+            
+                        <button class="float-btn" type="button">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+            
+                    <button type="button" class="next-btn" id="next-btn" style="transition-delay:0s;">التالى</button>
+                    <div class="error">
+                        <p></p>
+                    </div>
+            
+                    <div class="quiz-2 quiz">
+                        <h2>شاركنا اهتماماتك</h2>
+            
+                        <div class="choose-box">
+                            <div class="item">
+                                <img src="imgs/kitchin-form.jpg" alt="">
+                                <p>مطـابـخ</p>
+                                <label for="kitchen" class="point">
+                                    <input type="checkbox" id="kitchen" name="interests[]" value="مطـابـخ">
+                                </label>
+                            </div>
+                            <div class="item">
+                                <img src="imgs/Cabinets.jpg" alt="">
+                                <p>خزائن</p>
+                                <label for="Cabinets" class="point">
+                                    <input type="checkbox" id="Cabinets" name="interests[]" value="خزائن">
+                                </label>
+                            </div>
+                            <div class="item">
+                                <img src="imgs/windows.jpg" alt="">
+                                <p>نوافذ</p>
+                                <label for="Windows" class="point">
+                                    <input type="checkbox" id="Windows" name="interests[]" value="نوافذ">
+                                </label>
+                            </div>
+                            <div class="item">
+                                <img src="imgs/Furniture.jpg" alt="">
+                                <p>أثاث</p>
+                                <label for="Furniture" class="point">
+                                    <input type="checkbox" id="Furniture" name="interests[]" value="أثاث">
+                                </label>
+                            </div>
+                            <div class="item">
+                                <img src="imgs/Doors.jpg" alt="">
+                                <p>أبواب</p>
+                                <label for="Doors" class="point">
+                                    <input type="checkbox" id="Doors" name="interests[]" value="أبواب">
+                                </label>
+                            </div>
+                            <div class="item">
+                                <img src="imgs/Washbasins.jpg" alt="">
+                                <p>مغاسل</p>
+                                <label for="Washbasins" class="point">
+                                    <input type="checkbox" id="Washbasins" name="interests[]" value="مغاسل">
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="send-btn" id="submit-btn" style="transition-delay:0s;">تسجيل</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="cobon">
+        <img src="imgs/congratulation.png" alt="">
+        <div class="cobon-information">
+            <p class="code">b-33993</p>
+            <p class="name">محمد حسام</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
