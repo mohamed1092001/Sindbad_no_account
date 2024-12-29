@@ -106,11 +106,15 @@ $(document).ready(function () {
     });
 
     setInterval(function () {
-        if (window.outerWidth - window.innerWidth > 200 || window.outerHeight - window.innerHeight > 200) {
-            document.body.innerHTML = ""; // مسح الصفحة
-            alert("DevTools Detected! Please close it.");
+        // تحقق من عرض الشاشة (إيقاف الكود للشاشات الصغيرة)
+        if (window.innerWidth > 768) {
+            if (window.outerWidth - window.innerWidth > 200 || window.outerHeight - window.innerHeight > 200) {
+                document.body.innerHTML = ""; // مسح الصفحة
+                alert("DevTools Detected! Please close it.");
+            }
         }
     }, 500);
+
 });
 
 
